@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render default component 1`] = `
+<main
+  class="page"
+>
+  <h1
+    class="page-title"
+  >
+    About
+  </h1>
+  <div
+    class="page__content"
+  >
+    <section
+      class="about"
+    >
+      <p>
+        name
+      </p>
+      <p />
+      <button
+        class="btn btn-default"
+        type="button"
+      >
+        Default
+      </button>
+      <button
+        class="btn btn-primary"
+        type="button"
+      >
+        Primary
+      </button>
+      <button
+        class="btn btn-danger"
+        type="button"
+      >
+        Danger
+      </button>
+    </section>
+  </div>
+</main>
+`;
