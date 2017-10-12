@@ -62,7 +62,7 @@ const webpackConfig = {
             options: {
               sourceMap: helpers.IS_DEV,
               includePaths: [paths.styles],
-              data: '$static: "/static";',
+              data: '@import "variables"; $static: "/static";',
             },
           },
         ]),

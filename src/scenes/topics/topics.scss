@@ -1,7 +1,8 @@
 .topics {
-  background-color: #00f;
+  background-color: $gray-dark;
 }
 
 .topic {
-  background-color: #f00;
+  background-color: $gray-light;
+  content: "#{$static}/hello";
 }
