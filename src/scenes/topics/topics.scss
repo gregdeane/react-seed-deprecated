@@ -1,8 +1,8 @@
 .topics {
-  background-color: $gray-dark;
+  background-color: $brand-danger;
 }
 
 .topic {
-  background-color: $gray-light;
+  background-color: $link-hover-color;
   content: "#{$static}/hello";
 }
